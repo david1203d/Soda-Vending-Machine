@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Jan 10 11:13:01 2024
+# Process ID: 21812
+# Current directory: C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15048 C:\Users\Dell4David\Desktop\A2S1\PCLP4_H\stanciuzip\project_1\project_1.xpr
+# Log file: C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/vivado.log
+# Journal file: C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1\vivado.jou
+# Running On: DESKTOP-M8QO7FD, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+synth_design -top AutomatRacoritoare -part xc7a12ticsg325-1L -lint 
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+reset_run synth_1
+launch_simulation
+source Testbench_AutomatRacoritoare.tcl
+close_sim
+launch_simulation
+source Testbench_AutomatRacoritoare.tcl
+add_bp {C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.srcs/sources_1/new/Proiect.vhd} 82
+remove_bps -file {C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.srcs/sources_1/new/Proiect.vhd} -line 82
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+synth_design -top AutomatRacoritoare -part xc7a12ticsg325-1L -lint 
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+launch_runs impl_1 -jobs 10
+wait_on_run impl_1
+open_run impl_1
+launch_simulation
+launch_simulation -mode post-synthesis -type functional
+launch_simulation -mode post-implementation -type functional
+current_design synth_1
+launch_simulation
+source Testbench_AutomatRacoritoare.tcl
+close_sim
+launch_simulation
+launch_simulation
+source Testbench_AutomatRacoritoare.tcl
+close_sim

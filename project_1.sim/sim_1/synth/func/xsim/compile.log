@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.sim/sim_1/synth/func/xsim/Testbench_AutomatRacoritoare_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AutomatRacoritoare'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Testbench_AutomatRacoritoare'
+ERROR: [VRFC 10-719] formal port/generic <rest_1lei_iesire> is not declared in <automatracoritoare> [C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd:50]
+ERROR: [VRFC 10-9458] unit 'tb' is ignored due to previous errors [C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd:29]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/stanciuzip/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd' is ignored due to errors

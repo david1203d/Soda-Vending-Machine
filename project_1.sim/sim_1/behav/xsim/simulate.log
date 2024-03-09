@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+Error: Test 1 failed
+Time: 120 ns  Iteration: 0  Process: /Testbench_AutomatRacoritoare/line__67  File: C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/Proiect_Hard_Automat/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd
+Error: Test 2 failed
+Time: 170 ns  Iteration: 0  Process: /Testbench_AutomatRacoritoare/line__67  File: C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/Proiect_Hard_Automat/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd
+Error: Test 3 failed
+Time: 270 ns  Iteration: 0  Process: /Testbench_AutomatRacoritoare/line__67  File: C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/Proiect_Hard_Automat/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd
+Error: Test 4 failed
+Time: 320 ns  Iteration: 0  Process: /Testbench_AutomatRacoritoare/line__67  File: C:/Users/Dell4David/Desktop/A2S1/PCLP4_H/Proiect_Hard_Automat/project_1/project_1.srcs/sim_1/new/Proiect_tb.vhd

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"Testbench_AutomatRacoritoare_func_impl.vhd" \
+"../../../../../project_1.srcs/sim_1/new/Proiect_tb.vhd" \
+
+# Do not sort compile order
+nosort
